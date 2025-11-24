@@ -49,6 +49,90 @@ export const originSources = {
     desc: "来自第三方网站: 早晨报",
     home: "https://www.zaobao.com",
   },
+  "xinhua-world": {
+    name: "新华社-国际",
+    column: "world",
+    color: "blue",
+    home: "http://www.news.cn/world/",
+  },
+  "xinhua-finance": {
+    name: "新华社-财经",
+    column: "finance",
+    color: "blue",
+    home: "http://www.news.cn/fortune/",
+  },
+  "reuters-cn-finance": {
+    name: "路透社-中国财经",
+    column: "finance",
+    color: "orange",
+    home: "https://cn.reuters.com",
+  },
+  "reuters-int-biz": {
+    name: "路透社-国际财经",
+    column: "finance",
+    color: "orange",
+    home: "https://cn.reuters.com",
+  },
+  "reuters-insight": {
+    name: "路透社-深度分析",
+    column: "finance",
+    color: "orange",
+    home: "https://cn.reuters.com",
+  },
+  "bloomberg-news": {
+    name: "Bloomberg-News",
+    column: "world",
+    color: "black",
+    home: "https://www.bloomberg.com",
+  },
+  "bloomberg-markets": {
+    name: "Bloomberg-Markets",
+    column: "finance",
+    color: "black",
+    home: "https://www.bloomberg.com/markets",
+  },
+  "wsj-cn-china": {
+    name: "WSJ-中国实时报",
+    column: "china",
+    color: "gray",
+    home: "https://cn.wsj.com",
+  },
+  "wsj-cn-economy": {
+    name: "WSJ-中文经济",
+    column: "finance",
+    color: "gray",
+    home: "https://cn.wsj.com",
+  },
+  "caixin-finance": {
+    name: "财新网-金融",
+    column: "finance",
+    color: "blue",
+    home: "https://finance.caixin.com",
+  },
+  "caixin-company": {
+    name: "财新网-公司",
+    column: "finance",
+    color: "blue",
+    home: "https://companies.caixin.com",
+  },
+  "yicai-headline": {
+    name: "第一财经-头条",
+    column: "finance",
+    color: "red",
+    home: "https://www.yicai.com",
+  },
+  "yicai-finance": {
+    name: "第一财经-金融",
+    column: "finance",
+    color: "red",
+    home: "https://www.yicai.com/finance",
+  },
+  "idaily-best": {
+    name: "iDaily-每日精选",
+    column: "world",
+    color: "yellow",
+    home: "http://idaily-app.com",
+  },
   "coolapk": {
     name: "酷安",
     type: "hottest",
@@ -104,13 +188,6 @@ export const originSources = {
         title: "快讯",
       },
     },
-  },
-  "douyin": {
-    name: "抖音",
-    type: "hottest",
-    column: "china",
-    color: "gray",
-    home: "https://www.douyin.com",
   },
   "hupu": {
     name: "虎扑",
@@ -285,12 +362,6 @@ export const originSources = {
         column: "china",
         type: "hottest",
       },
-      "hot-video": {
-        title: "热门视频",
-        disable: "cf",
-        column: "china",
-        type: "hottest",
-      },
       "ranking": {
         title: "排行榜",
         column: "china",
@@ -299,15 +370,6 @@ export const originSources = {
         interval: Time.Common,
       },
     },
-  },
-  "kuaishou": {
-    name: "快手",
-    type: "hottest",
-    column: "china",
-    color: "orange",
-    // cloudflare pages cannot access
-    disable: "cf",
-    home: "https://www.kuaishou.com",
   },
   "kaopu": {
     name: "靠谱新闻",
@@ -357,14 +419,6 @@ export const originSources = {
     home: "https://www.ghxi.com/",
     disable: true,
   },
-  "smzdm": {
-    name: "什么值得买",
-    column: "china",
-    color: "red",
-    type: "hottest",
-    home: "https://www.smzdm.com",
-    disable: true,
-  },
   "nowcoder": {
     name: "牛客",
     column: "china",
@@ -378,13 +432,6 @@ export const originSources = {
     color: "red",
     type: "hottest",
     home: "https://sspai.com",
-  },
-  "juejin": {
-    name: "稀土掘金",
-    column: "tech",
-    color: "blue",
-    type: "hottest",
-    home: "https://juejin.cn",
   },
   "ifeng": {
     name: "凤凰网",
