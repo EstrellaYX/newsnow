@@ -16,6 +16,104 @@
     "interval": 600000,
     "title": "最新分享"
   },
+  "xinhua-world": {
+    "name": "新华社-国际",
+    "type": "rss",
+    "column": "world",
+    "home": "http://www.news.cn/world/index.htm",
+    "color": "blue"
+  },
+  "xinhua-finance": {
+    "name": "新华社-财经",
+    "type": "rss",
+    "column": "finance",
+    "home": "http://www.news.cn/fortune/index.htm",
+    "color": "blue"
+  },
+  "reuters-cn-finance": {
+    "name": "路透社-中国财经",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://cn.reuters.com",
+    "color": "orange"
+  },
+  "reuters-int-biz": {
+    "name": "路透社-国际财经",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://cn.reuters.com",
+    "color": "orange"
+  },
+  "reuters-insight": {
+    "name": "路透社-深度分析",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://cn.reuters.com",
+    "color": "orange"
+  },
+  "bloomberg-news": {
+    "name": "Bloomberg-News",
+    "type": "rss",
+    "column": "world",
+    "home": "https://www.bloomberg.com",
+    "color": "black"
+  },
+  "bloomberg-markets": {
+    "name": "Bloomberg-Markets",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://www.bloomberg.com/markets",
+    "color": "black"
+  },
+  "wsj-cn-china": {
+    "name": "WSJ-中国实时报",
+    "type": "rss",
+    "column": "china",
+    "home": "https://cn.wsj.com",
+    "color": "gray"
+  },
+  "wsj-cn-economy": {
+    "name": "WSJ-中文经济",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://cn.wsj.com",
+    "color": "gray"
+  },
+  "caixin-finance": {
+    "name": "财新网-金融",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://finance.caixin.com",
+    "color": "blue"
+  },
+  "caixin-company": {
+    "name": "财新网-公司",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://companies.caixin.com",
+    "color": "blue"
+  },
+  "yicai-headline": {
+    "name": "第一财经-头条",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://www.yicai.com",
+    "color": "red"
+  },
+  "yicai-finance": {
+    "name": "第一财经-金融",
+    "type": "rss",
+    "column": "finance",
+    "home": "https://www.yicai.com/finance",
+    "color": "red"
+  },
+  "idaily-best": {
+    "name": "iDaily-每日精选",
+    "type": "rss",
+    "column": "world",
+    "home": "http://idaily-app.com",
+    "color": "yellow"
+  },
   "zhihu": {
     "name": "知乎",
     "type": "hottest",
@@ -124,14 +222,6 @@
     "color": "blue",
     "interval": 600000,
     "title": "快讯"
-  },
-  "douyin": {
-    "name": "抖音",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://www.douyin.com",
-    "color": "gray",
-    "interval": 600000
   },
   "hupu": {
     "title": "主干道热帖",
@@ -361,16 +451,6 @@
     "interval": 600000,
     "title": "热搜"
   },
-  "bilibili-hot-video": {
-    "name": "哔哩哔哩",
-    "type": "hottest",
-    "disable": "cf",
-    "column": "china",
-    "home": "https://www.bilibili.com",
-    "color": "blue",
-    "interval": 600000,
-    "title": "热门视频"
-  },
   "bilibili-ranking": {
     "name": "哔哩哔哩",
     "type": "hottest",
@@ -380,15 +460,6 @@
     "color": "blue",
     "interval": 1800000,
     "title": "排行榜"
-  },
-  "kuaishou": {
-    "name": "快手",
-    "type": "hottest",
-    "disable": "cf",
-    "column": "china",
-    "home": "https://www.kuaishou.com",
-    "color": "orange",
-    "interval": 600000
   },
   "kaopu": {
     "name": "靠谱新闻",
@@ -428,14 +499,6 @@
     "column": "tech",
     "home": "https://sspai.com",
     "color": "red",
-    "interval": 600000
-  },
-  "juejin": {
-    "name": "稀土掘金",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://juejin.cn",
-    "color": "blue",
     "interval": 600000
   },
   "ifeng": {
