@@ -49,18 +49,31 @@ export const originSources = {
     desc: "来自第三方网站: 早晨报",
     home: "https://www.zaobao.com",
   },
-  "xinhua-world": {
-    name: "新华社-国际",
-    column: "world",
-    color: "blue",
-    home: "http://www.news.cn/world/",
+"xinhua": {
+    name: "新华社",
+    column: "world", 
+    color: "green",
+    home: "http://www.news.cn",
   },
-  "xinhua-finance": {
-    name: "新华社-财经",
+  "yicai": {
+    name: "第一财经",
+    column: "finance",
+    color: "red",
+    home: "https://www.yicai.com",
+  },
+  "caixin": {
+    name: "财新网",
     column: "finance",
     color: "blue",
-    home: "http://www.news.cn/fortune/",
+    home: "https://www.caixin.com",
   },
+  "idaily": {
+    name: "iDaily",
+    column: "world",
+    color: "yellow",
+    home: "http://idaily-app.com",
+  },
+  
   "reuters-cn-finance": {
     name: "路透社-中国财经",
     column: "finance",
@@ -102,36 +115,6 @@ export const originSources = {
     column: "finance",
     color: "gray",
     home: "https://cn.wsj.com",
-  },
-  "caixin-finance": {
-    name: "财新网-金融",
-    column: "finance",
-    color: "blue",
-    home: "https://finance.caixin.com",
-  },
-  "caixin-company": {
-    name: "财新网-公司",
-    column: "finance",
-    color: "blue",
-    home: "https://companies.caixin.com",
-  },
-  "yicai-headline": {
-    name: "第一财经-头条",
-    column: "finance",
-    color: "red",
-    home: "https://www.yicai.com",
-  },
-  "yicai-finance": {
-    name: "第一财经-金融",
-    column: "finance",
-    color: "red",
-    home: "https://www.yicai.com/finance",
-  },
-  "idaily-best": {
-    name: "iDaily-每日精选",
-    column: "world",
-    color: "yellow",
-    home: "http://idaily-app.com",
   },
   "coolapk": {
     name: "酷安",
