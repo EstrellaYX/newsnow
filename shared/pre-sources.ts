@@ -71,6 +71,7 @@ export const originSources = {
     name: "iDaily",
     column: "world",
     color: "yellow",
+    interval: Time.Realtime,
     home: "http://idaily-app.com",
   },
   
