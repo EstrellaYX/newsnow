@@ -84,10 +84,12 @@
     home: "https://www.caixin.com",
   },
   "idaily": {
-    name: "iDaily",
-    column: "world",
-    color: "yellow",
-    home: "http://idaily-app.com", 
+    "name": "iDaily",
+    "type": "hottest",
+    "column": "world",
+    "color": "yellow",
+    "home": "http://idaily-app.com",
+    "interval": 300000
   },
   "zhihu": {
     "name": "知乎",
